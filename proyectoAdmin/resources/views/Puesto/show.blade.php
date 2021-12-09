@@ -31,7 +31,6 @@
     <h1>Maximo:</h1><p>{{$puesto->maximo}}</p>
   </li>
 </ul>
-<button id="formbutton"data-id="{{url('puesto/' . $puesto->id)}}" onclick="modales()">Delete</button>
 <a href="{{url('puesto')}}">back</a>
 </div>
 @endsection

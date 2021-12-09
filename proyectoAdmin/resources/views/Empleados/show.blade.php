@@ -46,7 +46,6 @@
 </ul>
 
 
- <button id="formbutton" data-id="{{url('empleado/' . $empleado->id)}}" onclick="modales()">Delete</button>
 <a href="{{url('empleado')}}">back</a>
 </div>
 @endsection

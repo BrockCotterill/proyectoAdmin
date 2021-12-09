@@ -31,7 +31,6 @@
     <h1>idempleadojefe:</h1><p>{{$departamento->idempleadojefe}}</p>
     </li>
 </ul>
-<button id="bt{{ $departamento->id }}" onclick="modales({{$departamento->id}})">borrar</button>
 <a href="{{url('departamento')}}">back</a>
 </div>
 @endsection
